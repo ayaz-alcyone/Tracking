@@ -1764,6 +1764,6 @@
         });
     }
 </script>
-<script rel="text/javascript" src="{{ asset('js/map.js') }}""></script>
+<script rel="text/javascript" src="{{ asset('js/map.js') }}"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ env('MAP_KEY') }}&callback=initMap"></script>
 @endsection
