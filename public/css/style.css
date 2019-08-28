@@ -1,0 +1,1004 @@
+/* --------------------------------------
+    Theme styling all CSS here.
+---------------------------------------*/
+
+
+/* ----- GLOBAL CSS ----- */
+
+body {
+    color: #747474;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.backPrimary {
+    background: #f8f8f8 !important;
+}
+
+.backSecondry {
+    background: #ff6d00 !important;
+}
+
+.backLight {
+    background: #ffffff !important;
+}
+
+.backLignt2 {
+    background: #f5f8f9 !important;
+}
+
+.textPrimary {
+    color: #ff6d00 !important;
+}
+
+.textLight {
+    color: #ffffff !important;
+}
+
+.textDark {
+    color: #747474 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
+.navbar-dark .navbar-toggler:focus {
+    outline: none;
+}
+
+#content p:last-child {
+    margin-bottom: 0px !important;
+}
+
+
+/* Login Page */
+
+.loginHeader img {
+    position: absolute;
+    width: 174px;
+    left: 50%;
+    transform: translate(-50%, -170%);
+}
+
+.loginHeader div {
+    background: #ff6d00;
+    display: inline-block;
+    padding: 14px 14px;
+    border-radius: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -61%);
+}
+
+.loginHeader div span {
+    color: white;
+    font-size: 23px;
+    background: #ff6d00;
+    padding: 4px 6px;
+    border-radius: 24px;
+}
+
+.loginWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper section {
+    width: 430px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    margin-top: 5%;
+    background: #fff;
+}
+
+.loginHeader {
+    background: #f7f9fb;
+    border-radius: 5px;
+}
+
+.loginHeader h5 {
+    border-bottom: 1px solid #dedede;
+}
+
+.inputWithIcon label {
+    font-size: 14px;
+}
+
+.inputWithIcon:first-child input {
+    font-size: 14px;
+}
+
+.inputWithIcon input {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    color: #999999;
+}
+
+.inputWithIcon input {
+    padding-left: 36px;
+    background: #f7f9fb;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    padding: 9px 8px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.loginFooter {
+    border-top: 1px solid lightgray;
+    margin-top: 30px;
+    position: relative;
+    background: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.loginFooter p {
+    padding: 26px 0px;
+    font-size: 14px;
+}
+
+.loginFooter p a {
+    font-weight: 500;
+}
+
+.loginFooter span a:hover {
+    color: #ff6d00 !important;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.loginBody button:hover {
+    color: #ff6d00 !important;
+    font-weight: bold;
+    background: #f7f9fb !important;
+    border: 2px solid #ff6d00;
+    transition: 0.5s;
+}
+
+.loginBody button {
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+.loginFooter span {
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -51%);
+    background: #fff;
+    padding: 0px 10px;
+}
+
+.loginError button {
+    margin-top: -5px;
+}
+
+.loginError button:focus {
+    outline: none !important;
+}
+
+.loginError span {
+    padding: 0px 10px 5px 9px;
+    background: red;
+    border-radius: 28px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.loginError button:hover {
+    color: white;
+    background: transparent !important;
+    border: none;
+}
+
+
+/* Tracking Page */
+
+.page-wrapper {
+    width: 100%;
+}
+
+.header {
+    background: #343a40;
+}
+
+.navbar {
+    background: #202020 !important;
+}
+
+.topLogo {
+    width: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #747474;
+}
+
+.navbar-brand span {
+    color: #ff6d00 !important;
+    border: 2px solid #ff6d00;
+    padding: 5px 7px;
+    border-radius: 28px;
+}
+
+.navbar-nav li a:hover {
+    color: #ff6d00 !important;
+}
+
+.navbar-nav .custom-nav-item a:focus {
+    color: #ff6d00 !important;
+    background: transparent !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    left: -84px;
+    top: 48px;
+    padding: 10px 0px;
+    width: 204px;
+}
+
+.navbar-nav .nav-item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 14px;
+}
+
+.userInPop {
+    background: #ff6d00;
+    color: white !important;
+    padding: 7px 9px 9px 9px;
+    border-radius: 20px;
+}
+
+.userName {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+}
+
+.conpanyName {
+    font-size: 14px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.signOut {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+}
+
+.signOut a {
+    text-decoration: none;
+}
+
+.dropdown-menu .fa-caret-up {
+    position: absolute;
+    right: 13px;
+    font-size: 20px;
+    top: -14px;
+    color: white;
+}
+
+.trackingItems {
+    display: flex;
+    align-items: center;
+    padding: 14px 0px;
+    border-bottom: 1px solid #dedede;
+    cursor: pointer;
+}
+
+.trackingItems img {
+    width: 64px;
+}
+
+.trackingItems span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.active,
+.accordion:hover {
+    background-color: #f8f8f8;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+button.accordion:after {
+    content: "\f107";
+    color: #ff6d00;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-family: FontAwesome;
+    font-size: 18px;
+}
+
+button.accordion.active:after {
+    content: "\f106";
+    color: #ff6d00;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-family: FontAwesome;
+    font-size: 18px;
+}
+
+button.accordion:focus {
+    outline: none;
+}
+
+.filtersWrapper:after {
+    content: "\f107";
+    color: #ff6d00;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-family: FontAwesome;
+    font-size: 18px;
+    position: absolute;
+    top: 5px;
+    right: 19px;
+}
+
+#textPanel,
+#filterAll {
+    padding: 0px 18px;
+}
+
+
+/* IE11 hide native button (thanks Matt!) */
+
+select::-ms-expand {
+    display: none;
+}
+
+.filtersWrapper select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.filters {
+    border-bottom: 1px solid #dedede;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):before {
+    border-right: 2px solid #ff6d00 !important;
+    border-bottom: 2px solid #ff6d00 !important;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #9e9eab !important;
+    background-color: transparent !important;
+}
+
+.trackingFilters .trucks {
+    font-weight: 600;
+}
+
+#sel1:focus,
+#sel2:focus,
+#sel3:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#sel1,
+#sel2,
+#sel3 {
+    font-size: 14px;
+    font-weight: 600;
+    background: rgb(248, 248, 248);
+    border: none;
+    cursor: pointer;
+}
+
+.trackingSwitch {
+    position: absolute !important;
+    right: 16px;
+    top: 14px;
+}
+
+.panel:nth-child(1) {
+    border-bottom: 1px solid #dedede;
+}
+
+.colorBoxes span {
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    display: inline-block;
+    margin: 0px 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.colorBoxes span:focus {
+    box-shadow: 0px 0px 4px 1px grey;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.gmnoprint,
+.gm-fullscreen-control {
+    display: none;
+}
+
+.mapWrapper .icons {
+    position: absolute;
+    bottom: 16px;
+    right: 23px;
+    z-index: 1;
+    font-size: 22px;
+    color: #ff6d00;
+    background: white;
+    padding: 10px 12px;
+    border-radius: 23px;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+.mapWrapper span:nth-child(2) {
+    right: 77px;
+    padding: 10px 10px;
+}
+
+.mapWrapper span:nth-child(3) {
+    right: 131px;
+    padding: 10px 17px;
+}
+
+.trackingLeftSection {
+    overflow: auto;
+}
+
+.gm-ui-hover-effect {
+    display: none !important;
+}
+
+.gm-style a[href^="https://maps.google.com/maps"] {
+    display: none !important;
+}
+
+
+/* Left sidbar scroll */
+
+.routeTableWrapper table::-webkit-scrollbar {
+    height: 6px;
+}
+
+.trackingLeftSection::-webkit-scrollbar,
+.truckInfo .truckBody::-webkit-scrollbar {
+    width: 6px;
+}
+
+.trackingLeftSection::-webkit-scrollbar-track,
+.truckInfo .truckBody::-webkit-scrollbar-track,
+.routeTableWrapper table::-webkit-scrollbar-track {
+    background: #d3d3d369;
+    border-radius: 5px;
+}
+
+.trackingLeftSection::-webkit-scrollbar-thumb,
+.truckInfo .truckBody::-webkit-scrollbar-thumb,
+.routeTableWrapper table::-webkit-scrollbar-thumb {
+    background: #ff6d0094;
+    border-radius: 5px;
+}
+
+.trackingLeftSection::-webkit-scrollbar-thumb:hover,
+.truckInfo .truckBody::-webkit-scrollbar-thumb:hover,
+.routeTableWrapper table::-webkit-scrollbar-thumb:hover {
+    background: #ff6d00;
+}
+
+.checkbox-group {
+    display: block;
+    margin-bottom: 15px;
+    color: #747474;
+}
+
+.checkbox-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.checkbox-group label {
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.checkbox-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.removeCheck:after {
+    content: none !important;
+}
+
+.addCheck:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid #ff6d00;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox-group input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid #ff6d00;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.whatsapp,
+.emailBox,
+.truckInfo {
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    z-index: 1;
+    width: 320px;
+    background: white;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    box-shadow: 0px 0px 8px 4px lightgrey;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    display: none;
+}
+
+.whatsapp .wheader,
+.emailBox .eheader,
+.truckInfo .theader {
+    padding: 5px 10px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.whatsapp .wheader i,
+.emailBox .eheader i,
+.truckInfo .theader i {
+    cursor: pointer;
+}
+
+.whatsappBody input,
+.emailBox input {
+    border: none;
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    border-bottom: 1px solid #dedede;
+    padding-left: 28px;
+}
+
+.whatsappBody input::placeholder,
+.whatsappBody textarea::placeholder,
+.emailBox input::placeholder,
+.emailBox textarea::placeholder {
+    font-size: 14px;
+}
+
+.whatsappBody input:focus,
+.emailBox input:focus {
+    outline: none;
+}
+
+.whatsappBody textarea:focus,
+.emailBox textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.whatsappBody .to,
+.emailBox .to {
+    position: absolute;
+    left: 11px;
+    top: 45px;
+    font-size: 14px;
+}
+
+.whatsappBody button,
+.emailBox button {
+    padding: 3px 33px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.whatsappBody button:hover,
+.emailBox button:hover {
+    color: white;
+}
+
+.whatsappBody button:focus,
+.emailBox button:focus {
+    box-shadow: none;
+    background: #ff6d00 !important;
+}
+
+.whatsapp .wheader .fa-window-maximize,
+.emailBox .eheader .fa-window-maximize {
+    display: none;
+}
+
+.truckInfo .truckBody table tr td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #dedede;
+    font-size: 14px;
+}
+
+.truckInfo .truckBody table tr td p {
+    max-width: 49%;
+    display: inline;
+    overflow-wrap: break-word;
+}
+
+.truckInfo .truckBody table tr td p:nth-child(2) {
+    float: right;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.truckInfo .truckBody table tr td div:nth-child(2) {
+    float: right;
+    text-align: right;
+}
+
+.truckInfo {
+    top: 8px;
+}
+
+.truckInfo .truckBody {
+    overflow: auto;
+}
+
+.truckInfo .theader p {
+    font-weight: 500;
+}
+
+.infoWarning,
+.realRouteWarning {
+    display: none;
+    position: absolute;
+    right: 22px;
+    top: 8px;
+    background: white;
+    color: #ff6d00;
+    padding: 12px 37px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px lightgrey;
+}
+
+
+/* Invoices Page */
+
+.invoicesMain {
+    background: #f5f8f9;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.has-search input {
+    width: 320px;
+    box-shadow: 0px 0px 8px 2px lightgrey;
+}
+
+.has-search input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.has-search input::placeholder {
+    font-size: 14px;
+    color: #747474;
+    border-color: lightgray;
+}
+
+.invoiceCalender {
+    font-size: 14px;
+    width: 320px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px lightgrey;
+}
+
+.invoiceSearchWrapper {
+    font-size: 14px;
+}
+
+.invoiceTable table tr {
+    color: #747474;
+    font-size: 14px;
+}
+
+.invoiceTable .pdf {
+    width: 300px;
+    text-align: right;
+}
+
+.pdfBtn {
+    background: #f5f8f9;
+    border-left: 1px solid lightgray !important;
+    border-radius: 0px !important;
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+    color: #747474;
+    font-weight: 600 !important;
+}
+
+.pdfBtn:hover {
+    background: #ff6d00;
+    color: white !important;
+    transition: 0.5s;
+}
+
+
+/* Photos Page */
+
+.imageBlock {
+    font-size: 14px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    height: 264px;
+}
+
+.imageBlock div {
+    width: 260px;
+    height: 150px;
+}
+
+.imageBlock img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 260px;
+    height: 150px;
+}
+
+.imageBlock .location span:nth-child(1) {
+    font-size: 16px;
+}
+
+.imageBlock .location span:nth-child(2) {
+    padding-left: 4px;
+}
+
+.imageBlock .place {
+    font-size: 14px;
+    max-width: 260px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+
+/* Route Page */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 14px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    background-color: #999999;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.routeLeftTable {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0px 0px 4px 2px lightgrey;
+}
+
+input:checked+.slider {
+    background-color: #ff6d00;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #ff6d00;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.switchWrapper {
+    border-bottom: 1px solid lightgray;
+}
+
+.switchWrapper .switch {
+    position: absolute;
+    top: -11px;
+    right: 4px;
+}
+
+.switchWrapper span:first-child {
+    font-weight: 600;
+}
+
+#routeFilters {
+    display: none;
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.routes {
+    font-size: 14px;
+}
+
+.routeTableWrapper {
+    height: 70.5%;
+}
+
+.routeTableWrapper table p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.routeTableWrapper table th {
+    padding: 8px;
+}
+
+.routeTableWrapper table tbody tr td {
+    border: none;
+}
+
+.routeTableWrapper table tbody tr td:first-child {
+    border-right: 1px solid lightgray !important;
+}
+
+.routeTableWrapper table thead tr td {
+    border: none;
+    border-right: 1px solid lightgray !important;
+}
+
+.routeTableBottomSection {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0px 10px;
+}

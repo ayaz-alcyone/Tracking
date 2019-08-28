@@ -1,0 +1,90 @@
+/* -------------------------------------------------
+    Theme styling all responsive CSS here.
+--------------------------------------------------*/
+
+
+/* For 768px to 992px  */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .accordion {
+        padding: 0px;
+    }
+    .trackingItems span {
+        font-size: 14px;
+    }
+    .trackingItems span:nth-child(2) {
+        padding-left: 3px !important;
+    }
+    .panel {
+        font-size: 12px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+/* For working on less then 992px  */
+
+@media only screen and (max-width: 992px) {
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+    .trackingLeftSection {
+        height: 100%;
+    }
+    .dropdown-menu .fa-caret-up {
+        left: 30px;
+        top: 38px;
+        right: auto;
+    }
+    /* Invoice Page */
+    .invoiceTable .pdf {
+        width: auto;
+        border: 1px solid lightgray;
+        text-align: center;
+    }
+}
+
+
+/* Less then 768px */
+
+@media only screen and (max-width: 768px) {
+    .truckBody {
+        height: 92% !important;
+    }
+    .topLogo {
+        width: 60px;
+    }
+    .whatsapp,
+    .emailBox,
+    .truckInfo {
+        width: 310px;
+        right: 5px;
+    }
+    /* Invoice Page */
+    .has-search input,
+    .invoiceCalender {
+        width: 290px;
+    }
+    .invoiceSearchWrapper span:last-child {
+        margin-left: 0px !important;
+    }
+    .invoiceCalender {
+        margin-bottom: 10px;
+    }
+    .invoiceTable .pdf {
+        width: auto;
+        border: 1px solid lightgray;
+        padding: 0px !important;
+    }
+    .invoiceTable .pdf {
+        border: none;
+    }
+    .invoiceTable {
+        overflow: auto;
+    }
+    .photosWrapper {
+        text-align: center;
+    }
+}
